@@ -22,7 +22,10 @@ const _surv = function(){
                     // console.log(data[i]);
                 }
                 
+                data = data.filter(e => e.length > 1);
+                
                 data = data.map(e => {
+                    
                     console.log(e);
                     return {
                         timestamp: e[0],
