@@ -10,7 +10,7 @@ const _surv = function(){
     
     $(document).ready(() => {
         $.ajax({
-            url: "_Active_ v _AFK_ Runescape Playing Time (Responses) - Form responses 1 (1).tsv",
+            url: "data.tsv",
             success: function(data){
                
                 
