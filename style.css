@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.answerCell{
+    width: 400px;
+    height: 30px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.answerCountCell{
+    width: 200px;
+    height: 30px
+}
+
+.answerCountCell> .answerBar{
+    height: 30px;
+    background: rgb(82, 7, 7);
+    display: block;
+    line-height: 30px;
+    color: white;
+    padding-left: 5px;
+    font-weight: bold;
+}
